@@ -37,3 +37,8 @@ const testimonials = [
   }
 ];
 
+const testimonialsList = document.getElementById("testimonials-list");
+
+for (const testimonial of testimonials) {
+  console.log(testimonial.name);
+}
