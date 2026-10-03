@@ -41,3 +41,9 @@ A single-page personal portfolio built with plain HTML, CSS, and JavaScript.
 ```
 
 3. Open `index.html` in your browser, or use the Live Server extension in VS Code.
+
+
+## What I Learned
+
+Building this portfolio taught me how to store data in arrays of objects and use a loop to render it onto a page with JavaScript. I also learned how to use Git to make small, clear commits and how to deploy a site with GitHub Pages.
+
