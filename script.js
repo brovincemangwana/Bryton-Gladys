@@ -35,5 +35,11 @@ const projects = [
     title: "Personal Portfolio",
     description: "A single-page portfolio built with HTML, CSS, and JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"]
+  },
+
+  {
+    title: "To-Do List App",
+    description: "A simple task manager that lets you add and remove tasks.",
+    tech: ["HTML", "CSS", "JavaScript"]
   }
 ];
