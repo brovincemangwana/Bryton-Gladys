@@ -29,3 +29,11 @@ for (const testimonial of testimonials) {
 
   testimonialsList.appendChild(card);
 }
+
+const projects = [
+  {
+    title: "Personal Portfolio",
+    description: "A single-page portfolio built with HTML, CSS, and JavaScript.",
+    tech: ["HTML", "CSS", "JavaScript"]
+  }
+];
