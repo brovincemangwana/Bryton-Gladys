@@ -42,3 +42,17 @@ const testimonialsList = document.getElementById("testimonials-list");
 for (const testimonial of testimonials) {
   console.log(testimonial.name);
 }
+
+const testimonialsList = document.getElementById("testimonials-list");
+
+for (const testimonial of testimonials) {
+  const card = document.createElement("div");
+  card.classList.add("testimonial-card");
+
+  card.innerHTML = `
+    <p class="testimonial-text">"${testimonial.text}"</p>
+    <p class="testimonial-author">${testimonial.name}, ${testimonial.role}</p>
+  `;
+
+  testimonialsList.appendChild(card);
+}
