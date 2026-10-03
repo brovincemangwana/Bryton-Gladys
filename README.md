@@ -16,3 +16,11 @@ A single-page personal portfolio built with plain HTML, CSS, and JavaScript.
 - Contact section with email and GitHub links
 - Responsive design that adapts to phone screens
 
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, media queries)
+- JavaScript (arrays, objects, loops, DOM manipulation)
+- Git and GitHub
+- GitHub Pages
