@@ -47,5 +47,15 @@ const projects = [
 const projectsList = document.getElementById("projects-list");
 
 for (const project of projects) {
-  console.log(project.title);
+  const card = document.createElement("div");
+  card.classList.add("project-card");
+
+  card.innerHTML = `
+    <h3 class="project-title">${project.title}</h3>
+    <p class="project-description">${project.description}</p>
+    <p class="project-tech">Tech used: ${project.tech.join(", ")}</p>
+  `;
+
+  projectsList.appendChild(card);
+
 }
