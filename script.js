@@ -43,3 +43,9 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"]
   }
 ];
+
+const projectsList = document.getElementById("projects-list");
+
+for (const project of projects) {
+  console.log(project.title);
+}
