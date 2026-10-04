@@ -1,8 +1,8 @@
 const testimonials = [
   {
-    name: "Jane Doe",
+    name: "Jane Quinn",
     role: "Classmate",
-    text: "Brovince is great to work with and always willing to help."
+    text: "Brovince and Gladys are great to work with and always willing to help."
   },
   {
     name: "John Smith",
